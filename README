@@ -1,0 +1,11 @@
+
+## 🔧 环境要求
+- Python 3.7+
+- PyTorch 1.8+
+- OpenCV, NumPy, Matplotlib 等
+
+## 🚀 快速开始
+### 1. 克隆仓库
+```bash
+git clone git@github.com:fx438/fundus-vessels-segmentation.git
+cd fundus-vessels-segmentation
