@@ -1,4 +1,14 @@
-saved_model/ 
-*.pth 
-__pycache__/ 
-data/ 
+# 第一步：先忽略所有文件和文件夹（这行是核心，必须加）
+*
+
+# 第二步：忽略指定的大文件/文件夹（你的原有内容）
+saved_model/
+*.pth
+__pycache__/
+data/
+
+# 第三步：放行需要上传的文件/文件夹（你的原有内容）
+!drive/
+!drive/**/*
+!*.py
+!.gitignore
